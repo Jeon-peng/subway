@@ -11,10 +11,10 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
-# from selenium.webdriver.chrome.service import Service
-# from webdriver_manager.chrome import ChromeDriverManager
-# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
 
 
 def subway_traffic_daily(line_name):
@@ -169,7 +169,7 @@ def get_driver(url):
     options.add_argument("--incognito")
     options.add_argument("--window-size=1920,1080")
 
-    driver = webdriver.Chrome("chromedriver", options=options)
+    driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
     driver.get(url)
     driver.implicitly_wait(10)
 
