@@ -1,4 +1,6 @@
 # dir tree 
+
+'''bash
 ├── README.md
 ├── project
 │   ├── crontab.py
@@ -57,7 +59,7 @@
 │       ├── urls.py
 │       └── views.py
 └── requirements.txt
-
+'''
 
 # Setting up Python version to 3.10.0
 
