@@ -2,8 +2,9 @@
 
 version | description | date 
 |---|---|---|
-v1.0.0 | project fork ( TonysHub / subway ) | 2023-05-08 |
 v1.0.1 | add swagger | 2023-05-18 |
+v1.0.0 | project fork ( TonysHub / subway ) | 2023-05-08 |
+
 
 
 # Setting up Python version to 3.10.0
