@@ -1,65 +1,10 @@
-# dir tree 
+# update
 
-```bash
-├── README.md
-├── project
-│   ├── crontab.py
-│   ├── daily
-│   │   └── crawler.py
-│   ├── daily_process.py
-│   ├── manage.py
-│   ├── project
-│   │   ├── __init__.py
-│   │   ├── asgi.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── scraper
-│   │   ├── __init__.py
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── fixtures
-│   │   │   └── station_data.json
-│   │   ├── migrations
-│   │   │   └── __init__.py
-│   │   ├── models.py
-│   │   ├── plotly.py
-│   │   ├── static
-│   │   │   └── scraper
-│   │   │       ├── images
-│   │   │       │   ├── 1호선.jpg
-│   │   │       │   ├── 2호선.jpg
-│   │   │       │   ├── 3호선.jpg
-│   │   │       │   ├── 4호선.jpg
-│   │   │       │   └── 7호선.jpg
-│   │   │       ├── index.css
-│   │   │       ├── index.js
-│   │   │       └── style.css
-│   │   ├── templates
-│   │   │   └── scraper
-│   │   │       ├── base.html
-│   │   │       ├── dropdown.html
-│   │   │       ├── index.html
-│   │   │       ├── line_details.html
-│   │   │       ├── search_station.html
-│   │   │       └── station_details.html
-│   │   ├── templatetags
-│   │   │   ├── __init__.py
-│   │   │   └── all_lines.py
-│   │   ├── tests.py
-│   │   ├── urls.py
-│   │   └── views.py
-│   └── scraper_api
-│       ├── __init__.py
-│       ├── admin.py
-│       ├── apps.py
-│       ├── models.py
-│       ├── serializers.py
-│       ├── tests.py
-│       ├── urls.py
-│       └── views.py
-└── requirements.txt
-```
+version | description | date 
+|---|---|---|
+v1.0.0 | project fork ( TonysHub / subway ) | 2023-05-08 |
+v1.0.1 | add swagger | 2023-05-18 |
+
 
 # Setting up Python version to 3.10.0
 
